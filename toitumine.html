@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="toitumine.css">
+    <link rel="stylesheet" href="otsi.css">
 </head>
 <body>
-    <h1>Toitumine</h1>
+    <div class="container">
+        <nav class="navbar">
+          <div class="logo">Amuuri tiiger</div>
+          <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+              <li><a href="avaleht.html">Avaleht</a></li>
+              <li class="services">
+                <a href="/">Amuuri tiigrist</a>
+                <ul class="dropdown">
+                  <li><a href="iseloomustus.html">Iseloomustus</a></li>
+                  <li><a href="levik.html">Levik</a></li>
+                  <li><a href="toitumine.html">Toitumine</a></li>
+                  <li><a href="/">Dropdown 3</a></li>
+                  <li><a href="/">Dropdown 4</a></li>
+                </ul>
+              </li>
+              <li><a href="/">Vaata ka</a></li>
+            </div>
+         </nav>
+       </div>
+    <div class="wrapper">
+      <input id="searchtext" type="text" placeholder="Otsi leheküljelt..." /> 
+      <button id="searchbutton">Otsi</button>
+    </div>
+    <script src="script.js"></script>
+    <div class="main">
+      <h1>Toitumine</h1>
+      <br>
+      <p>Peamiselt toitub amuuri tiiger suurtest sõralistest. Lisaks sööb ta enam-vähem kõiki loomi, kellest jõud üle käib: 
+        jäneselisi, närilisi, kalu (eriti lõhesid) jne. Ta jahib ka kaeluskaru, mis kaaluvad 100 - 200 kg. 
+        Nagu kõik suured kassid, sööb ka amuuri tiiger meeleldi koeri. Amuuri tiigrit on nähtud püüdmas leoparde, krokodille, hiidpandasid ja pruunkarusid. 
+        Korduvalt on juhtunud, et üks suur loom murrab maha terve hundikarja. On täheldatud juhtum, 
+        kus isane amuuri tiiger tappis pruunkaru kahe käpalöögi ja ühe hammustusega läbi selgroo.</p>
+      <br>
+      <p>Siiski moodustavad suured sõralised põder ja metssiga amuuri tiigri toidust 85%, 
+        mistõttu tema põhiliste saakloomade kaitse on tiigrite säilitamise jaoks samuti väga tähtis.
+      <br>
+      <h2> Inimene ja amuuri tiiger</h2>
+      <br>
+      <p>Inimese suudab tiiger tappa ühe käpahoobiga. Siiski on amuuri tiigrite seas inimsööjaid väga vähe, 
+        erinevalt mõnevõrra väiksemast bengali tiigrist. Ometi peab ka loomaaias tiigritega väga ettevaatlik olema. 
+        Ka Tallinna loomaaias on tiigrid korduvalt külastajaid rünnanud, 
+        kes nende puuri on käe või jala pistnud, ja nendelt jäsemeid otsast kiskunud.</p>
+      <br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/P.t.altaica_Tomak_Male.jpg" alt="">
+      <br>
+      <br>
+    </div>
 </body>
 </html>
