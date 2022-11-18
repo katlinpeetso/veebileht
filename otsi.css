@@ -1,0 +1,26 @@
+.highlight {
+    background-color: rgb(133, 179, 143);
+}
+
+.wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.wrapper input{
+    width: 200px;
+    height: 40px;
+    padding: 10px 7px;
+    border-radius: 3px;
+    border: 1px black;
+}
+
+.wrapper button {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px black;
+}
