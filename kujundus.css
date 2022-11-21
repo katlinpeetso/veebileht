@@ -4,7 +4,6 @@ h1 { margin-right: 50px;
 
 h2 { margin-right: 50px;
     margin-left: 50px;
-
 }
 
 p { margin-right: 60px;
@@ -156,4 +155,15 @@ input[type=checkbox]:checked ~ .menu{
 .dropdown li:hover {
     background-color: #4c9e9e;
 }
+}
+
+hr {
+    border-width: 2px;
+    color: black;
+    margin-left: 50px;
+    margin-right: 60px;
+    }
+
+#Allikad {
+    margin-bottom: 20px;
 }
