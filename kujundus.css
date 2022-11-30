@@ -1,14 +1,17 @@
 h1 { margin-right: 50px;
     margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 { margin-right: 50px;
     margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p { margin-right: 60px;
     margin-left: 50px;
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img {
