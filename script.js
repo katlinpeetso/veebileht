@@ -1,7 +1,6 @@
 /* Kood on pärit lehelt stackowerflow.com (https://stackoverflow.com/questions/49661468/search-a-paragraph),
-koodi autori kasutajanimi on dave, kood on üles laetud 04.04.2018. Kood otsib lehelt otsingukasti 
-sisestatud sõna, ütleb, kui see sõna on lehel olemas ja mitu korda seda lehel esineb ning tõstab vastavad
-sõnad esile. */
+koodi autori kasutajanimi on dave, kood on üles laetud 04.04.2018. Kood otsib lehelt otsingukasti sisestatud
+sõna ning tõstab vastavad sõnad esile. */
 
 function Search() 
 {
